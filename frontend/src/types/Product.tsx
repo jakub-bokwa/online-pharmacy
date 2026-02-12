@@ -11,3 +11,8 @@ export type Products = Product[];
 export type ProductListProps = {
 	products: Products;
 };
+
+export type ProductItemProps = {
+	product: Product;
+	index: number;
+};
