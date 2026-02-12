@@ -1,14 +1,9 @@
 import type { Products } from "../types";
 
-const sortByPrice = (
-	unsortedProducts: Products,
-	direction: "ascending" | "descending",
-) => {
-	const sortedProducts = [...unsortedProducts].sort((a, b) =>
-		direction === "ascending" ? a.price - b.price : b.price - a.price,
-	);
+const sortAscending = (products: Products) =>
+  [...products].sort((a, b) => a.price - b.price);
 
-	return sortedProducts;
-};
+const sortDescending = (products: Products) =>
+  [...products].sort((a, b) => b.price - a.price);
 
-export { sortByPrice };
+export { sortAscending, sortDescending };
