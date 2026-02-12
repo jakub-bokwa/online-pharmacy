@@ -1,0 +1,701 @@
+[
+	{
+		"id": 1,
+		"name": "Aspirin",
+		"manufacturer": "WellnessPharma",
+		"price": 42.04
+	},
+	{
+		"id": 2,
+		"name": "Paracetamol",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "MedLife",
+		"price": 26.52
+	},
+	{
+		"id": 3,
+		"name": "Lisinopril",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "HealthPlus",
+		"price": 6.07
+	},
+	{
+		"id": 4,
+		"name": "Ciprofloxacin",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "PharmaCorp",
+		"price": 22.11
+	},
+	{
+		"id": 5,
+		"name": "Aspirin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "PharmaGen",
+		"price": 14.53
+	},
+	{
+		"id": 6,
+		"name": "Ibuprofen",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "VitalCare",
+		"price": 31.98
+	},
+	{
+		"id": 7,
+		"name": "Ciprofloxacin",
+		"description": "Antibiotic used to treat bacterial infections",
+		"manufacturer": "MedLife",
+		"price": 36.87
+	},
+	{
+		"id": 8,
+		"name": "Omeprazole",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "MediPure",
+		"price": 33.72
+	},
+	{
+		"id": 9,
+		"name": "Lisinopril",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "MedLife",
+		"price": 20.99
+	},
+	{
+		"id": 10,
+		"name": "Atorvastatin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "PharmaGen",
+		"price": 43.15
+	},
+	{
+		"id": 11,
+		"name": "Ibuprofen",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "GoodHealth",
+		"price": 49.08
+	},
+	{
+		"id": 12,
+		"name": "Paracetamol",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "HealthPlus",
+		"price": 40.03
+	},
+	{
+		"id": 13,
+		"name": "Amoxicillin",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "PharmaGen",
+		"price": 14.27
+	},
+	{
+		"id": 14,
+		"name": "Ciprofloxacin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "PharmaCorp",
+		"price": 6.34
+	},
+	{
+		"id": 15,
+		"name": "Omeprazole",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "HealthPlus",
+		"price": 43.67
+	},
+	{
+		"id": 16,
+		"name": "Metformin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "HealthPlus",
+		"price": 45.02
+	},
+	{
+		"id": 17,
+		"name": "Paracetamol",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "VitalCare",
+		"price": 43.25
+	},
+	{
+		"id": 18,
+		"name": "Paracetamol",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "MedLife",
+		"price": 37.55
+	},
+	{
+		"id": 19,
+		"name": "Aspirin",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "PharmaCorp",
+		"price": 37.83
+	},
+	{
+		"id": 20,
+		"name": "Omeprazole",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "PharmaGen",
+		"price": 24.21
+	},
+	{
+		"id": 21,
+		"name": "Amoxicillin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "MediPure",
+		"price": 30.75
+	},
+	{
+		"id": 22,
+		"name": "Paracetamol",
+		"description": "Antibiotic used to treat various types of bacterial infections",
+		"manufacturer": "CareMed",
+		"price": 33.21
+	},
+	{
+		"id": 23,
+		"name": "Aspirin",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "WellnessPharma",
+		"price": 34.79
+	},
+	{
+		"id": 24,
+		"name": "Amoxicillin",
+		"description": "Nonsteroidal anti-inflammatory drug",
+		"manufacturer": "CareMed",
+		"price": 9.55
+	},
+	{
+		"id": 25,
+		"name": "Metformin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "PharmaGen",
+		"price": 8.37
+	},
+	{
+		"id": 26,
+		"name": "Paracetamol",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "WellnessPharma",
+		"price": 18.6
+	},
+	{
+		"id": 27,
+		"name": "Aspirin",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "WellnessPharma",
+		"price": 37.73
+	},
+	{
+		"id": 28,
+		"name": "Ibuprofen",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "CareMed",
+		"price": 16.67
+	},
+	{
+		"id": 29,
+		"name": "Ibuprofen",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "MedLife",
+		"price": 21.86
+	},
+	{
+		"id": 30,
+		"name": "Simvastatin",
+		"description": "Antibiotic used to treat various types of bacterial infections",
+		"manufacturer": "MedLife",
+		"price": 27.02
+	},
+	{
+		"id": 31,
+		"name": "Metformin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "WellnessPharma",
+		"price": 23.28
+	},
+	{
+		"id": 32,
+		"name": "Paracetamol",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "HealthPlus",
+		"price": 41.64
+	},
+	{
+		"id": 33,
+		"name": "Simvastatin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "PharmaGen",
+		"price": 31.64
+	},
+	{
+		"id": 34,
+		"name": "Ibuprofen",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "CareMed",
+		"price": 15.18
+	},
+	{
+		"id": 35,
+		"name": "Omeprazole",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "MediPure",
+		"price": 19.01
+	},
+	{
+		"id": 36,
+		"name": "Paracetamol",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "GoodHealth",
+		"price": 32.97
+	},
+	{
+		"id": 37,
+		"name": "Atorvastatin",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "PharmaCorp",
+		"price": 25.33
+	},
+	{
+		"id": 38,
+		"name": "Ciprofloxacin",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "MediPure",
+		"price": 11.15
+	},
+	{
+		"id": 39,
+		"name": "Aspirin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "VitalCare",
+		"price": 29.59
+	},
+	{
+		"id": 40,
+		"name": "Lisinopril",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "LifePharm",
+		"price": 44.87
+	},
+	{
+		"id": 41,
+		"name": "Simvastatin",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "MediPure",
+		"price": 27.83
+	},
+	{
+		"id": 42,
+		"name": "Simvastatin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "MedLife",
+		"price": 48.07
+	},
+	{
+		"id": 43,
+		"name": "Paracetamol",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "PharmaGen",
+		"price": 23.35
+	},
+	{
+		"id": 44,
+		"name": "Aspirin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "MediPure",
+		"price": 29.73
+	},
+	{
+		"id": 45,
+		"name": "Simvastatin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "GoodHealth",
+		"price": 21.39
+	},
+	{
+		"id": 46,
+		"name": "Lisinopril",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "CareMed",
+		"price": 42.01
+	},
+	{
+		"id": 47,
+		"name": "Paracetamol",
+		"description": "Antibiotic used to treat various types of bacterial infections",
+		"manufacturer": "MediPure",
+		"price": 7.4
+	},
+	{
+		"id": 48,
+		"name": "Aspirin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "PharmaGen",
+		"price": 38.42
+	},
+	{
+		"id": 49,
+		"name": "Paracetamol",
+		"description": "Antibiotic used to treat various types of bacterial infections",
+		"manufacturer": "WellnessPharma",
+		"price": 38.15
+	},
+	{
+		"id": 50,
+		"name": "Paracetamol",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "MedLife",
+		"price": 42.91
+	},
+	{
+		"id": 51,
+		"name": "Paracetamol",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "VitalCare",
+		"price": 24.1
+	},
+	{
+		"id": 52,
+		"name": "Paracetamol",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "CareMed",
+		"price": 39.1
+	},
+	{
+		"id": 53,
+		"name": "Paracetamol",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "HealthPlus",
+		"price": 19.67
+	},
+	{
+		"id": 54,
+		"name": "Ciprofloxacin",
+		"description": "Antibiotic used to treat various types of bacterial infections",
+		"manufacturer": "HealthPlus",
+		"price": 26.2
+	},
+	{
+		"id": 55,
+		"name": "Paracetamol",
+		"description": "Antibiotic used to treat various types of bacterial infections",
+		"manufacturer": "VitalCare",
+		"price": 49.62
+	},
+	{
+		"id": 56,
+		"name": "Omeprazole",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "PharmaCorp",
+		"price": 24.6
+	},
+	{
+		"id": 57,
+		"name": "Amoxicillin",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "LifePharm",
+		"price": 41.39
+	},
+	{
+		"id": 58,
+		"name": "Ibuprofen",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "PharmaGen",
+		"price": 14.87
+	},
+	{
+		"id": 59,
+		"name": "Ciprofloxacin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "MediPure",
+		"price": 46.04
+	},
+	{
+		"id": 60,
+		"name": "Amoxicillin",
+		"description": "Used to treat high cholesterol and triglyceride levels",
+		"manufacturer": "PharmaCorp",
+		"price": 37.38
+	},
+	{
+		"id": 61,
+		"name": "Metformin",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "MedLife",
+		"price": 48.67
+	},
+	{
+		"id": 62,
+		"name": "Aspirin",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "GoodHealth",
+		"price": 38.34
+	},
+	{
+		"id": 63,
+		"name": "Paracetamol",
+		"description": "Antibiotic used to treat bacterial infections",
+		"manufacturer": "VitalCare",
+		"price": 28.88
+	},
+	{
+		"id": 64,
+		"name": "Simvastatin",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "VitalCare",
+		"price": 39.67
+	},
+	{
+		"id": 65,
+		"name": "Metformin",
+		"description": "Nonsteroidal anti-inflammatory drug",
+		"manufacturer": "CareMed",
+		"price": 9.67
+	},
+	{
+		"id": 66,
+		"name": "Aspirin",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "GoodHealth",
+		"price": 48.09
+	},
+	{
+		"id": 67,
+		"name": "Amoxicillin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "GoodHealth",
+		"price": 44.33
+	},
+	{
+		"id": 68,
+		"name": "Metformin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "PharmaCorp",
+		"price": 9.2
+	},
+	{
+		"id": 69,
+		"name": "Ibuprofen",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "VitalCare",
+		"price": 34.32
+	},
+	{
+		"id": 70,
+		"name": "Aspirin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "MediPure",
+		"price": 35.78
+	},
+	{
+		"id": 71,
+		"name": "Ibuprofen",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "CareMed",
+		"price": 33.27
+	},
+	{
+		"id": 72,
+		"name": "Lisinopril",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "HealthPlus",
+		"price": 27.93
+	},
+	{
+		"id": 73,
+		"name": "Omeprazole",
+		"description": "Nonsteroidal anti-inflammatory drug",
+		"manufacturer": "HealthPlus",
+		"price": 18.34
+	},
+	{
+		"id": 74,
+		"name": "Simvastatin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "CareMed",
+		"price": 35.12
+	},
+	{
+		"id": 75,
+		"name": "Omeprazole",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "GoodHealth",
+		"price": 34.85
+	},
+	{
+		"id": 76,
+		"name": "Aspirin",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "PharmaGen",
+		"price": 14.95
+	},
+	{
+		"id": 77,
+		"name": "Amoxicillin",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "VitalCare",
+		"price": 8.95
+	},
+	{
+		"id": 78,
+		"name": "Amoxicillin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "HealthPlus",
+		"price": 36.14
+	},
+	{
+		"id": 79,
+		"name": "Paracetamol",
+		"description": "Antibiotic used to treat bacterial infections",
+		"manufacturer": "LifePharm",
+		"price": 32.1
+	},
+	{
+		"id": 80,
+		"name": "Omeprazole",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "HealthPlus",
+		"price": 48.8
+	},
+	{
+		"id": 81,
+		"name": "Atorvastatin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "MedLife",
+		"price": 17.6
+	},
+	{
+		"id": 82,
+		"name": "Omeprazole",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "HealthPlus",
+		"price": 37.79
+	},
+	{
+		"id": 83,
+		"name": "Ciprofloxacin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "HealthPlus",
+		"price": 13.85
+	},
+	{
+		"id": 84,
+		"name": "Simvastatin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "MediPure",
+		"price": 29.91
+	},
+	{
+		"id": 85,
+		"name": "Ibuprofen",
+		"description": "Used to treat high cholesterol",
+		"manufacturer": "MediPure",
+		"price": 40.75
+	},
+	{
+		"id": 86,
+		"name": "Ibuprofen",
+		"description": "Nonsteroidal anti-inflammatory drug",
+		"manufacturer": "CareMed",
+		"price": 9.62
+	},
+	{
+		"id": 87,
+		"name": "Aspirin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "MedLife",
+		"price": 27.99
+	},
+	{
+		"id": 88,
+		"name": "Amoxicillin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "GoodHealth",
+		"price": 16.61
+	},
+	{
+		"id": 89,
+		"name": "Ciprofloxacin",
+		"description": "Used to treat high blood pressure",
+		"manufacturer": "PharmaCorp",
+		"price": 20.01
+	},
+	{
+		"id": 90,
+		"name": "Metformin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "GoodHealth",
+		"price": 39.32
+	},
+	{
+		"id": 91,
+		"name": "Ibuprofen",
+		"description": "Antibiotic used to treat bacterial infections",
+		"manufacturer": "GoodHealth",
+		"price": 45.45
+	},
+	{
+		"id": 92,
+		"name": "Amoxicillin",
+		"description": "Used to treat gastroesophageal reflux disease",
+		"manufacturer": "PharmaCorp",
+		"price": 45.72
+	},
+	{
+		"id": 93,
+		"name": "Amoxicillin",
+		"description": "Used to treat type 2 diabetes",
+		"manufacturer": "MedLife",
+		"price": 31.37
+	},
+	{
+		"id": 94,
+		"name": "Lisinopril",
+		"description": "Antibiotic used to treat bacterial infections",
+		"manufacturer": "WellnessPharma",
+		"price": 19.76
+	},
+	{
+		"id": 95,
+		"name": "Atorvastatin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "HealthPlus",
+		"price": 15.34
+	},
+	{
+		"id": 96,
+		"name": "Ibuprofen",
+		"description": "Nonsteroidal anti-inflammatory drug",
+		"manufacturer": "HealthPlus",
+		"price": 13.05
+	},
+	{
+		"id": 97,
+		"name": "Ciprofloxacin",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "MedLife",
+		"price": 15.48
+	},
+	{
+		"id": 98,
+		"name": "Amoxicillin",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "WellnessPharma",
+		"price": 38.31
+	},
+	{
+		"id": 99,
+		"name": "Paracetamol",
+		"description": "Pain reliever and a fever reducer",
+		"manufacturer": "WellnessPharma",
+		"price": 8.68
+	},
+	{
+		"id": 100,
+		"name": "Lisinopril",
+		"description": "Reduces pain, fever, or inflammation",
+		"manufacturer": "CareMed",
+		"price": 43.97
+	}
+]
