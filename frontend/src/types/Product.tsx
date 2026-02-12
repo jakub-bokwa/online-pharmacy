@@ -7,3 +7,7 @@ export type Product = {
 };
 
 export type Products = Product[];
+
+export type ProductListProps = {
+	products: Products;
+};
