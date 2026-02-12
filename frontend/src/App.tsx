@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Content } from "./Components";
 import productsArray from "../products.json";
 import type { Products, SortDirection } from "./types";
-import { sortAscending, sortDescending } from "./utils/sorting";
+import { sortByPrice } from "./utils/sorting";
 
 const App = () => {
 	const [products, setProducts] = useState<Products>([]);
@@ -12,29 +12,17 @@ const App = () => {
 		setProducts(productsArray);
 	}, []);
 
-	const handleSort = (unsortedProducts: Products) => {
+	const handleSort = () => {
 		if (sortingMode === "default") {
-			setSortingMode("asc");
-			setProducts(sortAscending(unsortedProducts));
-		} else if (sortingMode === "asc") {
-			setSortingMode("desc");
-			setProducts(sortDescending(unsortedProducts));
+			setSortingMode("ascending");
+			setProducts(sortByPrice(productsArray, "ascending"));
+		} else if (sortingMode === "ascending") {
+			setSortingMode("descending");
+			setProducts(sortByPrice(productsArray, "descending"));
 		} else {
 			setSortingMode("default");
-			setProducts(productsArray);
+			setProducts([...productsArray]);
 		}
-		// const sortedProducts = [...productsArray].sort((a, b) => {
-		// 	if (a.price < b.price) {
-		// 		return -1;
-		// 	}
-		// 	if (a.price > b.price) {
-		// 		return 1;
-		// 	}
-		// 	return 0;
-		// });
-
-		// setProducts(sortedProducts);
-		// console.log(sortedProducts);
 	};
 
 	return (
@@ -44,9 +32,7 @@ const App = () => {
 				<div className="flex justify-end">
 					<button
 						className="btn btn-accent btn-outline btn-sm"
-						onClick={() => {
-							handleSort(products);
-						}}
+						onClick={handleSort}
 					>
 						SORT BY: {sortingMode}
 					</button>
