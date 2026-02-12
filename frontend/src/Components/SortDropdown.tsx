@@ -4,7 +4,10 @@ const closeDropdown = () => {
   (document.activeElement as HTMLElement)?.blur();
 };
 
-export const SortDropdown = ({ sortingMode, onSortChange }: SortDropdownProps) => {
+export const SortDropdown = ({
+  sortingMode,
+  onSortChange,
+}: SortDropdownProps) => {
   return (
     <div className="dropdown">
       <div
