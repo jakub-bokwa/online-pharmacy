@@ -2,6 +2,7 @@
 	{
 		"id": 1,
 		"name": "Aspirin",
+		"description": "Reduces pain, fever, or inflammation",
 		"manufacturer": "WellnessPharma",
 		"price": 42.04
 	},

@@ -1,7 +1,7 @@
 export type Product = {
   id: number | string;
   name: string;
-  description?: string;
+  description: string;
   manufacturer: string;
   price: number;
 };
@@ -14,5 +14,4 @@ export type ProductListProps = {
 
 export type ProductItemProps = {
   product: Product;
-  index: number;
 };

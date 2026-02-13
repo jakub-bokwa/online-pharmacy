@@ -11,7 +11,7 @@ const filterProducts = (
     const matchesSearch =
       query === "" ||
       product.name.toLowerCase().includes(query) ||
-      (product.description?.toLowerCase().includes(query) ?? false);
+      product.description.toLowerCase().includes(query);
     const matchesManufacturer = selectedManufacturers.has(product.manufacturer);
 
     return matchesSearch && matchesManufacturer;

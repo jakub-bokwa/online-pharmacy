@@ -13,7 +13,7 @@ export const SortDropdown = ({
       <div
         tabIndex={0}
         role="button"
-        className="btn btn-accent btn-outline btn-sm m-1">
+        className="btn btn-accent btn-outline">
         Sort by price: {sortingMode}
       </div>
       <ul

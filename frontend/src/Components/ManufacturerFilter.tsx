@@ -13,7 +13,7 @@ export const ManufacturerFilter = ({
       <div
         tabIndex={0}
         role="button"
-        className="btn btn-accent btn-outline btn-sm m-1">
+        className="btn btn-accent btn-outline">
         Manufacturers ({selectedManufacturers.size}/{manufacturers.length})
       </div>
       <ul
