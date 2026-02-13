@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/products", async (_req, res) => {
-  const filePath = path.join(__dirname, "../../frontend/products.json");
+  const filePath = path.join(__dirname, "../products.json");
   const data = await readFile(filePath, "utf-8");
   res.json(JSON.parse(data));
 });
